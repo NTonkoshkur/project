@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <title>Enko Translator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            width: 300px;
+            padding: 10px;
+        }
+        textarea {
+            width: 100%;
+            height: 70px;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        #result {
+            white-space: pre-wrap;
+            background: #f0f0f0;
+            padding: 10px;
+            min-height: 70px;
+            border-radius: 4px;
+        }
+        button {
+            padding: 6px 12px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        #error {
+            color: red;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+<h3>Перевод через DeepL</h3>
+<textarea id="inputText"></textarea>
+<br />
+<button id="translateBtn">Перевести на русский</button>
+<div id="result"></div>
+<div id="error"></div>
+
+<script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "enko-proxy",
+  "main": "enko-proxy/server.js",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "expres": "^0.0.5",
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
